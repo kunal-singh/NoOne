@@ -1,4 +1,4 @@
-# NoOne - Developer Portfolio Management Tool
+# NoOne - Portfolio Management Tool
 
 ## Project Overview
 **NoOne** is an open-source tool designed to manage and host portfolio websites. It integrates a variety of modern technologies to provide a seamless and powerful experience for both users and their audiences.
@@ -26,23 +26,23 @@
 
 ### Week 1: Setting Up and Understanding Basics
 
-- [ ] **Day 1: Set Up Development Environment**
-  - **Task:** Install Node.js, npm, and set up a basic Next.js application.
-  - **Focus:** Project setup, environment configuration.
-  - **Resources:** [Node.js Installation](https://nodejs.org/), [Create Next.js App](https://nextjs.org/docs/getting-started)
+- [ ] **Day 1: Set Up Nx Monorepo with Vite+React+TypeScript**
+  - **Task:** Install Nx, create a new workspace, and set up Vite, React, and TypeScript within the Nx monorepo.
+  - **Focus:** Organizing multiple packages within a single repository.
+  - **Resources:** [Nx Documentation](https://nx.dev/getting-started/intro)
 
-- [ ] **Day 2: Introduction to Strapi**
-  - **Task:** Learn about Strapi and set it up.
-  - **Focus:** Setting up Strapi, creating content types for work experience, summaries, projects.
+- [ ] **Day 2: Configure Nx for Next.js**
+  - **Task:** Set up Next.js within the Nx monorepo.
+  - **Focus:** Configuring Next.js with TypeScript and ensuring it works within the Nx structure.
+  - **Resources:** [Nx Next.js Plugin](https://nx.dev/packages/next)
+
+- [ ] **Day 3: Configure Nx for Strapi**
+  - **Task:** Set up Strapi within the Nx monorepo.
+  - **Focus:** Integrating Strapi CMS, creating content types for work experience, summaries, and projects.
   - **Resources:** [Strapi Documentation](https://strapi.io/documentation)
 
-- [ ] **Day 3: Integrate Strapi with Next.js**
-  - **Task:** Connect Strapi CMS with Next.js frontend.
-  - **Focus:** Fetching data from Strapi and displaying it in Next.js.
-  - **Resources:** [Using Strapi with Next.js](https://strapi.io/blog/nextjs-react-hooks-strapi)
-
 - [ ] **Day 4: Styling with Tailwind CSS**
-  - **Task:** Set up Tailwind CSS with Next.js.
+  - **Task:** Set up Tailwind CSS with Next.js within the Nx monorepo.
   - **Focus:** Applying styles using Tailwind CSS, creating responsive layouts.
   - **Resources:** [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 
@@ -50,53 +50,55 @@
   - **Task:** Integrate Shadcn components with Next.js and Tailwind CSS.
   - **Focus:** Using Shadcn components for UI consistency and styling.
 
-- [ ] **Day 6: Setting Up Nx Monorepo**
-  - **Task:** Set up Nx to manage the monorepo for your project.
-  - **Focus:** Organizing multiple packages within a single repository.
-  - **Resources:** [Nx Documentation](https://nx.dev/getting-started/intro)
-
-- [ ] **Day 7: Configuring Vite for Fast Builds**
-  - **Task:** Integrate Vite for faster builds and optimized development workflow.
-  - **Focus:** Configuring Vite in the Nx monorepo.
-  - **Resources:** [Vite Documentation](https://vitejs.dev/)
-
-### Week 2: Building Core Features
-
-- [ ] **Day 8: Building Basic Portfolio Management Backend**
+- [ ] **Day 6: Building Basic Portfolio Management Backend**
   - **Task:** Implement CRUD operations for managing portfolio content in Strapi.
   - **Focus:** Controllers, services, TypeORM entities.
 
-- [ ] **Day 9: Frontend Integration with Portfolio Management**
+- [ ] **Day 7: Frontend Integration with Portfolio Management**
   - **Task:** Connect the frontend with the Strapi backend to display and manage portfolio content.
   - **Focus:** API integration, state management.
 
-- [ ] **Day 10: Adding User Authentication with AWS Cognito**
+### Week 2: Building Core Features
+
+- [ ] **Day 8: Adding User Authentication with AWS Cognito**
   - **Task:** Set up AWS Cognito for authentication and integrate it with the frontend and backend.
   - **Focus:** User login, registration, and authentication.
   - **Resources:** [AWS Cognito Documentation](https://docs.aws.amazon.com/cognito/index.html)
 
-- [ ] **Day 11: Node.js Utility for PDF Conversion**
+- [ ] **Day 9: Node.js Utility for PDF Conversion**
   - **Task:** Develop a Node.js service to convert HTML resume templates to PDF.
   - **Focus:** HTML to PDF conversion, unique URI generation.
 
-- [ ] **Day 12: Integrating PDF Generation with Frontend**
+- [ ] **Day 10: Integrating PDF Generation with Frontend**
   - **Task:** Integrate the PDF generation service with the frontend to allow users to download their resumes.
   - **Focus:** Frontend API calls, file downloads.
 
-- [ ] **Day 13: Setting Up GitHub Actions for Static Resume Updates**
+- [ ] **Day 11: Setting Up GitHub Actions for Static Resume Updates**
   - **Task:** Configure GitHub Actions to run on every release and update the static resume file.
   - **Focus:** Automating resume updates, CI/CD pipeline.
   - **Resources:** [GitHub Actions Documentation](https://docs.github.com/en/actions)
 
-- [ ] **Day 14: Setting Up Docker for Deployment**
+- [ ] **Day 12: Setting Up Docker for Deployment**
   - **Task:** Create Dockerfiles for the frontend, backend, and utilities.
   - **Focus:** Containerizing the application for consistent deployment.
   - **Resources:** [Docker Documentation](https://docs.docker.com/get-started/)
 
-- [ ] **Day 15: Deploying to AWS**
+- [ ] **Day 13: Deploying to AWS**
   - **Task:** Deploy the Docker containers to AWS.
   - **Focus:** Setting up AWS infrastructure, deploying containers, configuring environment variables.
   - **Resources:** [AWS Deployment Guide](https://aws.amazon.com/getting-started/hands-on/deploy-react-app-cicd-amplify/)
+
+- [ ] **Day 14: Final Testing and Documentation**
+  - **Task:** Conduct thorough testing of the application and write comprehensive documentation.
+  - **Focus:** End-to-end testing, API documentation, user guides, deployment checklist.
+  - **Resources:** [API Documentation Tools](https://swagger.io/), [Testing Strategies](https://reactjs.org/docs/testing.html), [NestJS Testing](https://docs.nestjs.com/fundamentals/testing)
+
+### Week 3: Final Touches and Deployment
+
+- [ ] **Day 15: Deployment and Monitoring**
+  - **Task:** Ensure deployment is stable and set up monitoring for the application.
+  - **Focus:** Deployment verification, setting up monitoring tools.
+  - **Resources:** [AWS CloudWatch](https://aws.amazon.com/cloudwatch/), [Docker Monitoring](https://docs.docker.com/config/containers/runmetrics/)
 
 ### Final Features
 
@@ -121,3 +123,5 @@
 **Deployment:**
 - Dockerized containers for consistent deployment.
 - Hosted on AWS for scalability and reliability.
+
+This comprehensive plan ensures that you will build a fully functional developer portfolio management tool, integrating advanced features step-by-step, with a focus on both frontend and backend development.
