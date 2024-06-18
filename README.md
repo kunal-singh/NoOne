@@ -1,4 +1,4 @@
-# NoOne - Developer Portfolio Management Tool
+# NoOne - Portfolio Management Tool
 
 ## Project Overview
 **NoOne** is an open-source tool designed to manage and host developer portfolio websites. It integrates a variety of modern technologies to provide a seamless and powerful experience for both developers and their audiences.
