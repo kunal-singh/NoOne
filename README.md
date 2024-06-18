@@ -1,7 +1,7 @@
-# NoOne - Portfolio Management Tool
+# NoOne - Developer Portfolio Management Tool
 
 ## Project Overview
-**NoOne** is an open-source tool designed to manage and host developer portfolio websites. It integrates a variety of modern technologies to provide a seamless and powerful experience for both developers and their audiences.
+**NoOne** is an open-source tool designed to manage and host portfolio websites. It integrates a variety of modern technologies to provide a seamless and powerful experience for both users and their audiences.
 
 ### Tech Stack:
 1. **Frontend:**
@@ -62,12 +62,12 @@
 
 ### Week 2: Building Core Features
 
-- [ ] **Day 8: Building Basic To-Do List Backend**
-  - **Task:** Implement CRUD operations for a to-do list in Strapi.
+- [ ] **Day 8: Building Basic Portfolio Management Backend**
+  - **Task:** Implement CRUD operations for managing portfolio content in Strapi.
   - **Focus:** Controllers, services, TypeORM entities.
 
-- [ ] **Day 9: Frontend Integration with To-Do List**
-  - **Task:** Connect the frontend with the Strapi backend to display and manage to-do lists.
+- [ ] **Day 9: Frontend Integration with Portfolio Management**
+  - **Task:** Connect the frontend with the Strapi backend to display and manage portfolio content.
   - **Focus:** API integration, state management.
 
 - [ ] **Day 10: Adding User Authentication with AWS Cognito**
@@ -83,9 +83,10 @@
   - **Task:** Integrate the PDF generation service with the frontend to allow users to download their resumes.
   - **Focus:** Frontend API calls, file downloads.
 
-- [ ] **Day 13: Implementing Real-time Updates with WebSockets**
-  - **Task:** Implement real-time updates for to-do lists using WebSockets.
-  - **Focus:** WebSocket gateway, real-time data handling.
+- [ ] **Day 13: Setting Up GitHub Actions for Static Resume Updates**
+  - **Task:** Configure GitHub Actions to run on every release and update the static resume file.
+  - **Focus:** Automating resume updates, CI/CD pipeline.
+  - **Resources:** [GitHub Actions Documentation](https://docs.github.com/en/actions)
 
 - [ ] **Day 14: Setting Up Docker for Deployment**
   - **Task:** Create Dockerfiles for the frontend, backend, and utilities.
@@ -96,3 +97,27 @@
   - **Task:** Deploy the Docker containers to AWS.
   - **Focus:** Setting up AWS infrastructure, deploying containers, configuring environment variables.
   - **Resources:** [AWS Deployment Guide](https://aws.amazon.com/getting-started/hands-on/deploy-react-app-cicd-amplify/)
+
+### Final Features
+
+**Portfolio Management:**
+- CRUD operations for portfolio content.
+- Displaying portfolio details on the website.
+- Integrating with Strapi for content management.
+
+**Resume Download:**
+- HTML to PDF conversion for resumes.
+- Unique URI for PDF download.
+- API integration for seamless resume updates.
+
+**Static Resume Updates:**
+- Automating resume updates using GitHub Actions.
+- Storing updated resumes as static files.
+
+**Authentication:**
+- AWS Cognito for secure authentication.
+- User login and registration.
+
+**Deployment:**
+- Dockerized containers for consistent deployment.
+- Hosted on AWS for scalability and reliability.
