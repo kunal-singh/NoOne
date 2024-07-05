@@ -1,7 +1,7 @@
-# NoOne - Portfolio Management Tool
+# NoOne - Developer Portfolio Management Tool
 
 ## Project Overview
-**NoOne** is an open-source tool designed to manage and host portfolio websites. It integrates a variety of modern technologies to provide a seamless and powerful experience for both users and their audiences.
+**NoOne** is an open-source tool designed to manage and host developer portfolio websites. It integrates a variety of modern technologies to provide a seamless and powerful experience for both developers and their audiences.
 
 ### Tech Stack:
 1. **Frontend:**
@@ -9,11 +9,11 @@
    - **Shadcn + Tailwind CSS:** For styling the frontend with a modern and responsive design.
 
 2. **Backend:**
-   - **Strapi:** As the CMS to manage content such as work experience, summaries, and projects.
+   - **NestJS:** As the backend framework to manage content such as work experience, summaries, and projects.
    - **Node.js Utility:** To convert HTML resume themes into PDF, accessible through a unique URI.
 
 3. **Package Management:**
-   - **Nx + Vite:** For managing packages in a monorepo setup, including portfolio themes, resume themes, utilities, Strapi CMS, and Node.js utility.
+   - **Nx + Vite:** For managing packages in a monorepo setup, including portfolio themes, resume themes, utilities, NestJS backend, and Node.js utility.
 
 4. **Deployment:**
    - **Docker:** To package the entire application into a container for consistent deployment across environments.
@@ -36,10 +36,10 @@
   - **Focus:** Configuring Next.js with TypeScript and ensuring it works within the Nx structure.
   - **Resources:** [Nx Next.js Plugin](https://nx.dev/packages/next)
 
-- [ ] **Day 3: Configure Nx for Strapi**
-  - **Task:** Set up Strapi within the Nx monorepo.
-  - **Focus:** Integrating Strapi CMS, creating content types for work experience, summaries, and projects.
-  - **Resources:** [Strapi Documentation](https://strapi.io/documentation)
+- [ ] **Day 3: Setting Up NestJS Backend**
+  - **Task:** Set up NestJS within the Nx monorepo.
+  - **Focus:** Creating basic NestJS modules, controllers, and services for managing content such as work experience, summaries, and projects.
+  - **Resources:** [NestJS Documentation](https://docs.nestjs.com/)
 
 - [ ] **Day 4: Styling with Tailwind CSS**
   - **Task:** Set up Tailwind CSS with Next.js within the Nx monorepo.
@@ -50,12 +50,12 @@
   - **Task:** Integrate Shadcn components with Next.js and Tailwind CSS.
   - **Focus:** Using Shadcn components for UI consistency and styling.
 
-- [ ] **Day 6: Building Basic Portfolio Management Backend**
-  - **Task:** Implement CRUD operations for managing portfolio content in Strapi.
+- [ ] **Day 6: Building Basic Portfolio Management Backend with NestJS**
+  - **Task:** Implement CRUD operations for managing portfolio content in NestJS.
   - **Focus:** Controllers, services, TypeORM entities.
 
 - [ ] **Day 7: Frontend Integration with Portfolio Management**
-  - **Task:** Connect the frontend with the Strapi backend to display and manage portfolio content.
+  - **Task:** Connect the frontend with the NestJS backend to display and manage portfolio content.
   - **Focus:** API integration, state management.
 
 ### Week 2: Building Core Features
@@ -88,12 +88,12 @@
   - **Focus:** Setting up AWS infrastructure, deploying containers, configuring environment variables.
   - **Resources:** [AWS Deployment Guide](https://aws.amazon.com/getting-started/hands-on/deploy-react-app-cicd-amplify/)
 
+### Week 3: Final Touches and Deployment
+
 - [ ] **Day 14: Final Testing and Documentation**
   - **Task:** Conduct thorough testing of the application and write comprehensive documentation.
   - **Focus:** End-to-end testing, API documentation, user guides, deployment checklist.
   - **Resources:** [API Documentation Tools](https://swagger.io/), [Testing Strategies](https://reactjs.org/docs/testing.html), [NestJS Testing](https://docs.nestjs.com/fundamentals/testing)
-
-### Week 3: Final Touches and Deployment
 
 - [ ] **Day 15: Deployment and Monitoring**
   - **Task:** Ensure deployment is stable and set up monitoring for the application.
@@ -105,7 +105,7 @@
 **Portfolio Management:**
 - CRUD operations for portfolio content.
 - Displaying portfolio details on the website.
-- Integrating with Strapi for content management.
+- Integrating with NestJS for content management.
 
 **Resume Download:**
 - HTML to PDF conversion for resumes.
@@ -123,3 +123,4 @@
 **Deployment:**
 - Dockerized containers for consistent deployment.
 - Hosted on AWS for scalability and reliability.
+
