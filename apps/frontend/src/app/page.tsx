@@ -1,3 +1,4 @@
+import {Button} from "@frontend/ui-kit/ui";
 export default function Index() {
   /*
    * Replace the elements below with your own.
@@ -14,6 +15,7 @@ export default function Index() {
               Welcome frontend 👋
             </h1>
           </div>
+          <Button>Click Me</Button>
 
           <div id="hero" className="rounded">
             <div className="text-container">
